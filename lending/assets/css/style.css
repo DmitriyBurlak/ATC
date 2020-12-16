@@ -1,0 +1,133 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+section, main, footer, header, article {
+  display: block;
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url(../images/bg.jpg);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  overflow-x: hidden;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "FuturaRound";
+  src: local("FuturaRound"), local("Stem-Regular"), url("../fonts/a_FuturaRound.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FuturaRoundDemi";
+  src: local("FuturaRoundDemi"), local("Stem-Light"), url("../fonts/a_FuturaRoundDemi.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Junegull";
+  src: local("Stem Regular"), local("Stem-Regular"), url("../fonts/Junegull.ttf") format("truetype");
+}
+.wrapper {
+  max-width: 1110px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.app {
+  max-width: 1110px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.header {
+  margin-top: 150px;
+  height: 80px;
+  background: #002B7E;
+  opacity: 0.8;
+  border-radius: 8px;
+  padding-top: 23px;
+  padding-bottom: 17px;
+}
+.header .title {
+  font-size: 32px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 400;
+}
+
+.main {
+  background: #FFFFFF;
+  border-radius: 8px;
+  margin-top: 16px;
+  padding: 16px;
+}
+.main__items {
+  padding: 16px 24px;
+  list-style-position: inside;
+  -moz-column-count: 5;
+  /* Firefox */
+  -webkit-column-count: 5;
+  /* Safari and Chrome */
+  column-count: 5;
+  list-style-type: decimal;
+  height: 400px;
+}
+.main__items .item {
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.main__items .item__title {
+  padding-bottom: 8px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #0096F2;
+}
+.main__items .item a {
+  color: #1D2335;
+  padding-bottom: 8px;
+}
+.main__items .item_no a {
+  font-weight: 600;
+  color: #F2291F;
+}
+.main__button {
+  background: #D3DBE8;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: no-drop;
+}
+.main__button img {
+  margin-left: 13px;
+}
+
+/*# sourceMappingURL=style.css.map */

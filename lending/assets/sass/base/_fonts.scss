@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'FuturaRound';
+    src: local('FuturaRound'), local('Stem-Regular'),
+        url('../fonts/a_FuturaRound.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'FuturaRoundDemi';
+    src: local('FuturaRoundDemi'), local('Stem-Light'),
+        url('../fonts/a_FuturaRoundDemi.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Junegull';
+    src: local('Stem Regular'), local('Stem-Regular'),
+        /* url('../fonts/Junegull.woff2') format('woff2'),
+        url('../fonts/Junegull.woff') format('woff'), */
+        url('../fonts/Junegull.ttf') format('truetype');
+  }
