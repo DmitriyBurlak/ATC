@@ -1,23 +1,5 @@
 <template>
-  <div id="hello">
-    <h2>{{message}}</h2>
-  </div>
+  
+  <router-view />
+  
 </template>
- 
-<script>
-export default {
-  name: 'app',
-  data () {
-    return {
-      message: 'Welcome to Vue.js'
-    }
-  }
-}
-</script>
- 
-<style>
-#hello {
-  font-family: Verdana;
-  color: red;
-}
-</style>

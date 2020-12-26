@@ -1,6 +1,8 @@
 const path = require("path");
+const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const VueLoaderPlugin = require("vue-loader/lib/plugin");
 
@@ -9,7 +11,7 @@ module.exports = {
   mode: "development",
   entry: "./main.js",
   output: {
-    filename: "[name].bundle.js",
+    filename: "assets/js/[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
   },
   devServer: {
@@ -24,11 +26,23 @@ module.exports = {
       template: "./index.html",
       filename: "index.html",
     }),
+    new CopyPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, "src/favicon.ico"),
+          to: path.resolve(__dirname, "dist"),
+        },
+      ],
+    }),
+
+    new webpack.SourceMapDevToolPlugin({
+      filename: "[file].map",
+    }),
     new CleanWebpackPlugin(),
-    // new MiniCssExtractPlugin({
-    //   filename: "[name].css",
-    //   chunkFilename: "[id].css",
-    // }),
+    new MiniCssExtractPlugin({
+      filename: "assets/css/[name].css",
+      chunkFilename: "[id].css",
+    }),
     new VueLoaderPlugin(),
   ],
   module: {
@@ -44,12 +58,45 @@ module.exports = {
         },
       },
       {
-        test: /\.css$/,
-        use: ["vue-style-loader", "css-loader"],
+        test: /\.scss$/,
+        use: [
+          "vue-style-loader",
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              publicPath: "../../",
+            },
+          },
+          "css-loader",
+          "sass-loader",
+        ],
       },
       {
-        test: /\.(png|svg|jpg|gif)$/,
-        use: ["file-loader"],
+        test: /\.css$/,
+        use: [
+          "vue-style-loader",
+          {
+            loader: MiniCssExtractPlugin.loader,
+          },
+          "css-loader",
+        ],
+      },
+      {
+        test: /\.svg$/,
+        loader: "svg-inline-loader",
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              outputPath: "./assets/images",
+              name: "[name].[ext]",
+              esModule: false,
+            },
+          },
+        ],
       },
     ],
   },

@@ -1,0 +1,21 @@
+body {
+  background-image: url('../images/bg.jpg');
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  overflow-x: hidden;
+  color: #000;
+}
+a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px #002B7E;
+  background: #002B7E;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
