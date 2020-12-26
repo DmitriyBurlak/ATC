@@ -33,7 +33,8 @@ function script() {
     .pipe(eslint.format())
     .pipe(eslint.failAfterError())
     .pipe(webpackStream(webpackConfig), webpack)
-    .pipe(dest("dev"));
+    .pipe(dest("dev"))
+    .pipe(sync.stream());
 }
 
 function scriptMin() {
