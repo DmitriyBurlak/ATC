@@ -3,6 +3,8 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
+import * as fetch from "./js/fetch.js";
+
 import "./scss/style.scss";
 
 Vue.config.productionTip = false;
@@ -14,19 +16,4 @@ new Vue({
   render: (h) => h(App),
 });
 
-let items = document.querySelectorAll(".item");
-let btn = document.querySelector(".main__button");
-
-let classDel = (items) => {
-  items.forEach((item) => {
-    item.classList.remove("active");
-  });
-};
-console.log(items);
-items.forEach((item) => {
-  item.addEventListener("click", () => {
-    classDel(items);
-    item.classList.add("active");
-    btn.removeAttribute("disabled");
-  });
-});
+fetch.request();

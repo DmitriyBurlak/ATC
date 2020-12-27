@@ -1,0 +1,352 @@
+{
+  "atc": [
+    {
+      "id": 1,
+      "category": "Железная"
+    },
+    {
+      "id": 2,
+      "category": "Программная"
+    },
+    {
+      "id": 3,
+      "category": "Облачная АТС"
+    },
+    {
+      "id": 4,
+      "category": "iToolabs (Облачная АТС)"
+    }
+  ],
+  "names": [
+    {
+      "name": "Avaya IP Office",
+      "nameId": 100,
+      "parentId": 1
+    },
+    {
+      "name": "Cisco UCM",
+      "nameId": 101,
+      "parentId": 1
+    },
+    {
+      "name": "LG iPecs",
+      "nameId": 102,
+      "parentId": 1
+    },
+    {
+      "name": "Panasonic KX-TDA/TDE, КX-NS",
+      "nameId": 103,
+      "parentId": 1
+    },        {
+      "name": "Samsung OfficeServ",
+      "nameId": 104,
+      "parentId": 1
+    },
+    {
+      "name": "Ascozia",
+      "nameId": 110,
+      "parentId": 2
+    },
+    {
+      "name": "Asteriks выше версии 1.6",
+      "nameId": 111,
+      "parentId": 2
+    },
+    {
+      "name": "Elastix",
+      "nameId": 112,
+      "parentId": 2
+    },        {
+      "name": "FreePBX",
+      "nameId": 113,
+      "parentId": 2
+    },        {
+      "name": "Oktell",
+      "nameId": 114,
+      "parentId": 2
+    },        {
+      "name": "VoxLink",
+      "nameId": 115,
+      "parentId": 2
+    },        {
+      "name": "Yeastar",
+      "nameId": 116,
+      "parentId": 2
+    },
+    {
+      "name": "BeeLine",
+      "nameId": 120,
+      "parentId": 3
+    },
+    {
+      "name": "Mango",
+      "nameId": 121,
+      "parentId": 3
+    },
+    {
+      "name": "MTS",
+      "nameId": 122,
+      "parentId": 3
+    },        
+    {
+      "name": "Rostelecom",
+      "nameId": 123,
+      "parentId": 3
+    },        
+    {
+      "name": "Telfin",
+      "nameId": 124,
+      "parentId": 3
+    },        
+    {
+      "name": "UIS",
+      "nameId": 125,
+      "parentId": 3
+    },        
+    {
+      "name": "Yandex",
+      "nameId": 126,
+      "parentId": 3
+    },
+    {
+      "name": "Zadarma",
+      "nameId": 127,
+      "parentId": 3
+    },
+    {
+      "name": "Altegro",
+      "nameId": 130,
+      "parentId": 4
+    },
+    {
+      "name": "Comiten",
+      "nameId": 131,
+      "parentId": 4
+    },
+    {
+      "name": "COMLINK",
+      "nameId": 132,
+      "parentId": 4
+    },        
+    {
+      "name": "DreamNet",
+      "nameId": 133,
+      "parentId": 4
+    },        
+    {
+      "name": "Easytel",
+      "nameId": 134,
+      "parentId": 4
+    },        
+    {
+      "name": "EVO",
+      "nameId": 135,
+      "parentId": 4
+    },        
+    {
+      "name": "Finenumbers",
+      "nameId": 136,
+      "parentId": 4
+    },
+    {
+      "name": "OpenSpeak",
+      "nameId": 137,
+      "parentId": 4
+    },
+    {
+      "name": "Power Telecom",
+      "nameId": 138,
+      "parentId": 4
+    },
+    {
+      "name": "RiNet",
+      "nameId": 139,
+      "parentId": 4
+    },
+    {
+      "name": "SipVip",
+      "nameId": 140,
+      "parentId": 4
+    },
+    {
+      "name": "Smartcard",
+      "nameId": 141,
+      "parentId": 4
+    },
+    {
+      "name": "Spacetel",
+      "nameId": 142,
+      "parentId": 4
+    },
+    {
+      "name": "Tashir Telecom",
+      "nameId": 136,
+      "parentId": 4
+    },
+    {
+      "name": "Tekmi",
+      "nameId": 143,
+      "parentId": 4
+    },
+    {
+      "name": "TelefonN",
+      "nameId": 144,
+      "parentId": 4
+    },
+    {
+      "name": "Telepro",
+      "nameId": 145,
+      "parentId": 4
+    },
+    {
+      "name": "Virgin Connect",
+      "nameId": 146,
+      "parentId": 4
+    },
+    {
+      "name": "Авантел",
+      "nameId": 147,
+      "parentId": 4
+    },
+    {
+      "name": "АльянсТелеком",
+      "nameId": 148,
+      "parentId": 4
+    },
+    {
+      "name": "ВАМтел",
+      "nameId": 149,
+      "parentId": 4
+    },       
+    {
+      "name": "ВекторТел",
+      "nameId": 150,
+      "parentId": 4
+    },
+    {
+      "name": "Вест колл (Москва)",
+      "nameId": 151,
+      "parentId": 4
+    },
+    {
+      "name": "ВестКолл СПб",
+      "nameId": 152,
+      "parentId": 4
+    },
+    {
+      "name": "Гарс Телеком",
+      "nameId": 153,
+      "parentId": 4
+    },
+    {
+      "name": "Деловая Сеть – Иркутск",
+      "nameId": 154,
+      "parentId": 4
+    },
+    {
+      "name": "Интеграл",
+      "nameId": 155,
+      "parentId": 4
+    },
+    {
+      "name": "Инт-Информ",
+      "nameId": 156,
+      "parentId": 4
+    },
+    {
+      "name": "Кловертел",
+      "nameId": 157,
+      "parentId": 4
+    },
+    {
+      "name": "Корпорация VoIP",
+      "nameId": 158,
+      "parentId": 4
+    },
+    {
+      "name": "Мегафон",
+      "nameId": 159,
+      "parentId": 4
+    },
+    {
+      "name": "Наука-связь",
+      "nameId": 160,
+      "parentId": 4
+    },
+    {
+      "name": "Новые Телефонные Системы",
+      "nameId": 161,
+      "parentId": 4
+    },
+    {
+      "name": "Рукомтех",
+      "nameId": 162,
+      "parentId": 4
+    },
+    {
+      "name": "Русские системы",
+      "nameId": 163,
+      "parentId": 4
+    },
+    {
+      "name": "Связь-Холдинг",
+      "nameId": 164,
+      "parentId": 4
+    },
+    {
+      "name": "Сибирские Сети",
+      "nameId": 165,
+      "parentId": 4
+    },
+    {
+      "name": "Твинго телеком",
+      "nameId": 166,
+      "parentId": 4
+    },
+    {
+      "name": "Телетай",
+      "nameId": 167,
+      "parentId": 4
+    },
+    {
+      "name": "Технологии для жизни",
+      "nameId": 168,
+      "parentId": 4
+    },
+    {
+      "name": "ТТК",
+      "nameId": 169,
+      "parentId": 4
+    },
+    {
+      "name": "Ультрамарин",
+      "nameId": 170,
+      "parentId": 4
+    },
+    {
+      "name": "Щелково•net",
+      "nameId": 171,
+      "parentId": 4
+    },
+    {
+      "name": "Экомобайл",
+      "nameId": 172,
+      "parentId": 4
+    },
+    {
+      "name": "Эконотел",
+      "nameId": 173,
+      "parentId": 4
+    },
+    {
+      "name": "Энфорта",
+      "nameId": 174,
+      "parentId": 4
+    },
+    {
+      "name": "Юг-Телеком",
+      "nameId": 175,
+      "parentId": 4
+    }
+  ]
+}

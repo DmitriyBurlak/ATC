@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import Register from "../views/Register.vue";
+import TwoPage from "../views/TwoPage.vue";
 
 Vue.use(VueRouter);
 
@@ -12,9 +12,9 @@ const routes = [
     component: Home,
   },
   {
-    path: "/register",
-    name: "register",
-    component: Register,
+    path: "/two-page",
+    name: "two-page",
+    component: TwoPage,
   },
 ];
 
