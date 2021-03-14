@@ -1,0 +1,13 @@
+.Layout {
+    background-image: url(../../assets/images/bg.jpg);
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Layout main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}

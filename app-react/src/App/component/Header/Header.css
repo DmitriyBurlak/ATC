@@ -1,0 +1,16 @@
+.Header {
+    /* margin-top: 150px; */
+    /* height: 80px; */
+    background: #002B7E;
+    opacity: 0.8;
+    border-radius: 8px;
+    padding-top: 23px;
+    padding-bottom: 17px;   
+}
+
+.Header .title {
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 400;
+}

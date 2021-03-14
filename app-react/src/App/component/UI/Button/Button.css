@@ -1,0 +1,23 @@
+.Button {
+    background: #3b86ff;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;  
+    color: #FFFFFF;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background .3s linear;
+}
+
+.Button:disabled {
+    background: #D3DBE8;
+    cursor: no-drop;
+}
+
+.Button img {
+    margin-left: 13px;
+}
